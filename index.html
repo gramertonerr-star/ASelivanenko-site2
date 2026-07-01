@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Лабораторна робота №8 - Bootstrap</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Мій Bootstrap Сайт</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Головна</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Про нас</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                            Послуги
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Розробка</a></li>
+                            <li><a class="dropdown-item" href="#">Дизайн</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <div class="row">
+            <aside class="col-md-4 mb-4">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action active">Панель керування</a>
+                    <a href="#" class="list-group-item list-group-item-action">Профіль</a>
+                    <a href="#" class="list-group-item list-group-item-action">Налаштування</a>
+                </div>
+            </aside>
+
+            <main class="col-md-8">
+                <h2 class="mb-4">Вітаємо на тестовій сторінці!</h2>
+                <p class="text-muted">Цей текст відформатовано за допомогою Bootstrap класу <code class="text-danger">text-muted</code>.</p>
+                
+                <div class="card p-4 my-4">
+                    <h4 class="card-title mb-3">Зворотній зв'язок</h4>
+                    <form>
+                        <div class="mb-3">
+                            <label for="emailInput" class="form-label">Email адреса</label>
+                            <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="messageTextarea" class="form-label">Ваше повідомлення</label>
+                            <textarea class="form-control" id="messageTextarea" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Надіслати</button>
+                        <button type="reset" class="btn btn-secondary">Очистити</button>
+                    </form>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3 mt-auto">
+        <div class="container">
+            <p class="mb-0">&copy; 2026 Лабораторна робота. Створено з використанням Bootstrap 5.</p>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>

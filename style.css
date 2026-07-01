@@ -1,0 +1,51 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #34495e;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+main {
+    max-width: 850px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.plugin-box {
+    background: #fff;
+    padding: 25px;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+h2 {
+    color: #2c3e50;
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 10px;
+}
+
+/* Налаштування слайдера, щоб картинки коректно масштабувалися */
+.main-slider img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background: #34495e;
+    color: white;
+    margin-top: 3rem;
+}
